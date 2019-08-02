@@ -138,9 +138,7 @@
     <Compile Include="Features\Scanning\CameraPreviewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="..\Resources\AR\hardhat\detect.tflite">
-      <Link>Assets\AR\hardhat\detect.tflite</Link>
-    </AndroidAsset>
+    <AndroidAsset Include="Assets\AR\hardhat\detect2.tflite" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

@@ -6,7 +6,6 @@ using System.Linq;
 using System.Text;
 using TailwindTraders.Mobile.Features.Scanning;
 using TailwindTraders.Mobile.Features.Scanning.AR;
-using TailwindTraders.Mobile.Features.Settings;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(TensorflowLiteService))]
@@ -21,7 +20,7 @@ namespace TailwindTraders.Mobile.Features.Scanning
         public const string InputTensorMessage = nameof(InputTensorMessage);
 
         public readonly string LabelFilename = TFFolder + "labels_list.txt";
-        public readonly string ModelFilename = TFFolder + "detect.tflite";
+        public readonly string ModelFilename = TFFolder + "detect2.tflite";
 
         private const int LabelOffset = 1;
 
